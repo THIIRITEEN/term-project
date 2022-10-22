@@ -197,45 +197,68 @@
 <!--reservform-->
 
 <br>
-    <div id="rform">
-        <h2>Reservation Form</h2>
+<center>
+        <h2 class="h2-2">Reservation Form</h2>
         <hr>
+</center>
+    <div id="rform">
+        <div class="rbox">
         <form action="">
             <label for="name">Full Name:</label>
+            <br>
             <input type="text" placeholder="Last Name, First Name" name="" id="name" size="20">
+            <br>
             <label for="email">Email Address</label>
+            <br>
             <input type="email" placeholder="mail@mail.com" name="" id="email" size="20">
+            <br>
             <label for="number">Phone Number:</label>
+            <br>
             <input type="text" name="" id="number" size="10">
+            <br>
             <label for="details">Reservation Details</label>
+            <br>
             <select name="" id="details">
                 <option value="1p">1 person table</option>
                 <option value="2p">2 person table</option>
                 <option value="3p">3 person table</option>
             </select>
             <label for="date">Reservation Date:</label>
+            <br>
             <input type="date" name="" id="date">
+            <br>
             <input type="radio" name="1" id="Morning">
             <label for="morning">Morning</label>
             <input type="radio" name="1" id="Afternoon">
             <label for="afternoon">Afternoon</label>
-            <br>
+        </div>
+    </form>
+<br>
+        <form action="">
+        <div class="rbox">
             <label for="add">Additional Requests:</label>
+            <br>
             <textarea name="add" id="add" cols="30" rows="10"></textarea>
             <br>
-            <h3>Payment</h3>
-            <p>Payment Accepted Cards</p>
-            <label for="cards">Cards</label>
+            <div id="payment">
+                <h3>Payment</h3>
+                <p>Payment Accepted Cards</p>
+                <label for="cards">Cards</label>
+            </div>
             <br>
             <label for="ccard">Credit Card Name</label>
             <input type="text" placeholder="John Doe" name="" id="cname" size="20">
+            <br>
             <label for="cnumber">Credit Card Number</label>
             <input type="text" placeholder="1234567890" name="" id="cnumber" size="20">
+            <br>
             <input type="checkbox" name="" id="agree">
             <label for="agree">I agree chuchuchuchcu</label>
+            <br>
             <button>Send</button>
         </form>
-
+        </div>
+    </div>
 <!--footer-->
 
 <br>        

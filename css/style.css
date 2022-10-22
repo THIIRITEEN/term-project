@@ -132,6 +132,7 @@
     line-height: 30px;
     margin-left: 60px;
 }
+/*products*/
 .h2-2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: lighter;
@@ -152,6 +153,7 @@ hr{
     margin-right: 45%;
     margin-bottom: 50px;
 }
+/*products*/
 #box2 {
     margin: 5px;
     display: inline-flex;
@@ -168,6 +170,9 @@ hr{
 .product{
     padding-left: 10px;  
 }
+
+/*banner1*/
+
 #ads{
     background-image: url(../images/banner.jpg);
     background-size: cover;
@@ -199,6 +204,9 @@ hr{
     font-size: small;
     font-weight: bold;
 }
+
+/*ads1*/
+
 .box1{
     width: 49.5%;
     float: left;
@@ -228,4 +236,33 @@ hr{
 
 #box2{
     margin-bottom: 100px;
+}
+
+/*rform*/
+
+#rform{
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    padding: 15px 15px;
+}
+.rbox{
+    width: 350px;
+    float: left;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-color: lightgray;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 15px 15px;
+}
+.rbox:nth-child(1){
+   margin-left: 10px;
+}
+#payment{
+    text-align: center;
 }
