@@ -4,6 +4,9 @@
     box-sizing: border-box;
     position: relative;
 }
+
+/*nav*/
+
 #title{
     width: 50%;
     float: left;
@@ -35,6 +38,9 @@
     font-size: 18px;
     text-decoration: none;
 }
+
+/*banner*/
+
 #uft{
     background-image: url(../images/atf-image.jpg);
     background-size: cover;
@@ -85,6 +91,9 @@
     padding: 15px;
     margin-left: 100px;
 }
+
+/*ads*/
+
 #offers{
     overflow: auto;
     width: 85%;
@@ -149,9 +158,6 @@ hr{
     max-width: 100%;
     margin-left: 3.9%;
 }
-.product {
-    padding-left: 10px;
-}
 #box3{
     margin-top: 10px;
     margin: 5px;
@@ -173,6 +179,7 @@ hr{
     padding: 100px 50px;
     margin-left: 3.9%;
     margin-right: 3.9%;
+    margin-bottom: 50px;
 }
 .h3{
     color: white;
@@ -191,4 +198,34 @@ hr{
     font-family: sans-serif;
     font-size: small;
     font-weight: bold;
+}
+.box1{
+    width: 49.5%;
+    float: left;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-color: #312a26;
+    position: relative;
+    margin-top: 10px;
+}
+.box1:nth-child(1){
+    background-image: url(../images/merchandise3.jpg);
+}
+.box1:nth-child(2){
+    background-image: url(../images/merchandise4.jpg);
+    margin-left: 10px;
+}
+.box1:nth-child(3){
+    background-image: url(../images/merchandise5.jpg);
+}
+.box1:nth-child(4){
+    background-image: url(../images/merchandise6.jpg);
+    margin-left: 10px;
+}
+
+/*products1...*/
+
+#box2{
+    margin-bottom: 100px;
 }
